@@ -38,7 +38,8 @@ The next few steps will guide the user to how to setup the environment and  how 
 
 Please follow the exact steps:
 
-        //To i9nstall kaggle packeges and related python packages.
+//To install kaggle packeges and related python packages.
+
         ! pip install kaggle torchvision torch pandas matplotlib numpy scipy scikit-learn
 
 
