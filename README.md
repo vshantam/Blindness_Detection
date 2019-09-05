@@ -32,7 +32,7 @@ Directory Structure of the dataset ( Size 10GB ):
         -----
         1000+ more
 
-For this project i will be using the <b>Google Colab</b> because this kind of heavy image dataset requires a lot powerful device and google colab free storage for <b>GPU </b> or <b> TPU </b> based runtime environment and <b> python</b will be my primary language.
+For this project i will be using the <b>Google Colab</b> because this kind of heavy image dataset requires a lot powerful device and google colab free storage for <b>GPU </b> or <b> TPU </b> based runtime environment and <b> python</b> will be my primary language.
 
 The next few steps will guide the user to how to setup the environment and  how to download the dataset.
 
