@@ -38,9 +38,9 @@ The next few steps will guide the user to how to setup the environment and  how 
 
 Please follow the exact steps:
 
-//To install kaggle packeges and related python packages.
+    1 - To install kaggle packeges and related python packages.
 
-        ! pip install kaggle torchvision torch pandas matplotlib numpy scipy scikit-learn
+            ! pip install kaggle torchvision torch pandas matplotlib numpy scipy scikit-learn
 
 
 <h5><b>This is currently ongoing project</b></h5>
