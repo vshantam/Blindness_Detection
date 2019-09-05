@@ -32,6 +32,14 @@ Directory Structure of the dataset ( Size 10GB ):
         -----
         1000+ more
 
-For this project i will be using the <b>Google Colab</b> because this kind of heavy image dataset requires a lot powerful device and google colab free storage for <b>GPU </b> or <b> TPU </b> based runtime environment.
+For this project i will be using the <b>Google Colab</b> because this kind of heavy image dataset requires a lot powerful device and google colab free storage for <b>GPU </b> or <b> TPU </b> based runtime environment and <b> python</b will be my primary language.
+
+The next few steps will guide the user to how to setup the environment and  how to download the dataset.
+
+Please follow the exact steps:
+
+        //To i9nstall kaggle packeges and related python packages.
+        ! pip install kaggle torchvision torch pandas matplotlib numpy scipy scikit-learn
+
 
 <h5><b>This is currently ongoing project</b></h5>
