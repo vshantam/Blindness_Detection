@@ -39,8 +39,48 @@ The next few steps will guide the user to how to setup the environment and  how 
 Please follow the exact steps:
 
     1 - To install kaggle packeges and related python packages.
-
             ! pip install kaggle torchvision torch pandas matplotlib numpy scipy scikit-learn
+    2 - Create directory name " Kaggle"
+            !mkdir ~/.kaggle
+    3 - Check for existence
+            !ls -a /content/.kaggle
+            
+To use the Kaggle API, you have to create a Kaggle account. Once you have logged in, you will have to go to the ‘My Account’ section on your profile. Then you will have to click on ‘Create New API Token’ to use the Kaggle API. The ‘Create New API Token’ button will trigger a download of a file called ‘kaggle.json’. This file has the credentials of your API token for your account.
 
+Once you have the key, please proceed further.
+
+    4 - Svaing the credential to the file.
+            import json
+            token = {"username":"YOUR_USERNAME","key":"YOUR_KEY"}
+            with open('/content/kaggle.json', 'w') as file:
+                json.dump(token, file)
+            file.close()
+
+    5 - Creating a copy
+            !cp /content/kaggle.json  ~/.kaggle/kaggle.json
+
+    6 - Setting up the configuration.
+            !kaggle config set -n path -v{/content}
+    
+    7 - Giving permission.
+            !chmod 600 /root/.kaggle/kaggle.json
+
+Once you finished you can check if it is working or not by the following command.
+
+        !kaggle datasets list
+If you get output like below, Great you succeeded.
+
+        ref                                                       title                                              size  lastUpdated          downloadCount  
+        --------------------------------------------------------  ------------------------------------------------  -----  -------------
+    dgomonov/new-york-city-airbnb-open-data                   New York City Airbnb Open Data                      2MB  2019-08-12 16:24:45           2443  
+    lakshyaag/india-trade-data                                India - Trade Data                                  1MB  2019-08-16 16:13:58           2106  
+    AnalyzeBoston/crimes-in-boston                            Crimes in Boston                                   10MB  2018-09-04 17:56:03          13908  
+    jolasa/waves-measuring-buoys-data-mooloolaba              Waves Measuring Buoys Data                        599KB  2019-07-07 16:59:44           1549  
+    citizen-ds-ghana/health-facilities-gh                     Ghana Health Facilities                            84KB  2018-09-03 01:19:24           1239  
+    doit-intl/autotel-shared-car-locations                    Shared Cars Locations                              78MB  2019-01-10 13:06:00           1546  
+    ma7555/schengen-visa-stats                                Schengen Visa Stats 2017/2018                       1MB  2019-07-25 10:55:37            301  
+    dareenalharthi/jamalon-arabic-books-dataset               Jamalon Arabic Books Dataset                        1MB  2019-08-15 18:58:06             72  
+    samhiatt/xenocanto-avian-vocalizations-canv-usa           Avian Vocalizations from CA & NV, USA               1GB  2019-08-10 00:16:10             44  
+    Madgrades/uw-madison-courses                              UW Madison Courses and Grades 2006-2017            90MB  2018-05-15 
 
 <h5><b>This is currently ongoing project</b></h5>
