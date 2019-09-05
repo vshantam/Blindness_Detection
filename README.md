@@ -1,6 +1,6 @@
-# Blindness_Detection
+# Blindness Detection
 
-![src](https://www.google.com/search?q=blindness+detection&rlz=1C1GCEU_enIN861IN861&tbm=isch&source=iu&ictx=1&fir=9900SpKLYwEzHM%253A%252CdXJiXIvRDvSTCM%252C_&vet=1&usg=AI4_-kRzbIpZSlOluaks3yefINaInbbavQ&sa=X&ved=2ahUKEwjHo__n7rnkAhWIr48KHW5SBd4Q9QEwAHoECAYQAw#imgrc=9900SpKLYwEzHM:)
+![alt_tag](https://miro.medium.com/max/624/0*qm-3jR10-p3xMD4S)
 
 This project is a ongoing challange on <b>Kaggle</b> where we have to develope a strategy to design a system which will be able to detet the category of blindness in the human eye.
 <br>
@@ -84,5 +84,7 @@ If you get output like below, Great you succeeded.
     dareenalharthi/jamalon-arabic-books-dataset               Jamalon Arabic Books Dataset                        1MB  2019-08-15 18:58:06             72  
     samhiatt/xenocanto-avian-vocalizations-canv-usa           Avian Vocalizations from CA & NV, USA               1GB  2019-08-10 00:16:10             44  
     Madgrades/uw-madison-courses                              UW Madison Courses and Grades 2006-2017            90MB  2018-05-15 
+
+Now, that you are all setup, let get us into the world of Deep Learning.
 
 <h5><b>This is currently ongoing project</b></h5>
