@@ -10,7 +10,7 @@ According to the dataset, there are following categories such as :
     3 - SEVERE
     4 - PORIFERATIVE DR
 
-Specifications of the dataset:
+Directory Structure of the dataset ( Size 10GB ):
         
     sample_submission.csv
     test.csv
@@ -31,5 +31,7 @@ Specifications of the dataset:
         00cb6555d108.png
         -----
         1000+ more
-        
+
+For this project i will be using the <b>Google Colab</b> because this kind of heavy image dataset requires a lot powerful device and google colab free storage for <b>GPU </b> or <b> TPU </b> based runtime environment.
+
 <h5><b>This is currently ongoing project</b></h5>
