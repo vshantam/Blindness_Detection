@@ -87,4 +87,15 @@ If you get output like below, Great you succeeded.
 
 Now, that you are all setup, let get us into the world of Deep Learning.
 
+The Standard procedures have been considered with slightly modification in the pre-processing phase.
+The steps involved for the implementation are as discussed below:
+
+        1 - Data Loading.
+        2 - Scaling and Normalization.
+        3 - Ben Grahams Preprocessing technique(New).
+        4 - Model Loading.
+        5 - Training and saving the mode.
+        
+
+
 <h5><b>This is currently ongoing project</b></h5>
