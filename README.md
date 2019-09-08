@@ -96,6 +96,21 @@ The steps involved for the implementation are as discussed below:
         4 - Model Loading.
         5 - Training and saving the mode.
         
+<h3>1 - Data Loading</h3>
+The first step is to download the dataset and load it to the environment, The dataset can be downloaded manually or usng kaggle API.To use the kaggle API ,it reuires the installation .
+
+To download the dataset from Kaggle please use the following command:
+
+        !kaggle competitions download -c aptos2019-blindness-detection -p /content
+        
+Once the dataset is downloaded create a seperate tree like directory for training and testing which will be helpfull during further structural execution.
+
+        1. !mkdir Train_Images Test_Images
+        2. !unzip train_images.zip  -d Train_Images
+        3. !unzip test_images.zip  -d Test_Images/
+        4. !cd Train_Images && mkdir 0 1 2 3 4
+        
+        
 
 
 <h5><b>This is currently ongoing project</b></h5>
