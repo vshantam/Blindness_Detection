@@ -91,7 +91,7 @@ The Standard procedures have been considered with slightly modification in the p
 The steps involved for the implementation are as discussed below:
 
         1 - Data Loading.
-        2 - Scaling and Normalization wth Ben Grahams Preprocessing technique(New).
+        2 - Scaling and Normalization with Ben Grahams Preprocessing technique(New).
         4 - Model Loading.
         5 - Training and saving the mode.
         
