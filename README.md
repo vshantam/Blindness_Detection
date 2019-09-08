@@ -91,8 +91,7 @@ The Standard procedures have been considered with slightly modification in the p
 The steps involved for the implementation are as discussed below:
 
         1 - Data Loading.
-        2 - Scaling and Normalization.
-        3 - Ben Grahams Preprocessing technique(New).
+        2 - Scaling and Normalization wth Ben Grahams Preprocessing technique(New).
         4 - Model Loading.
         5 - Training and saving the mode.
         
@@ -110,7 +109,19 @@ Once the dataset is downloaded create a seperate tree like directory for trainin
         3. !unzip test_images.zip  -d Test_Images/
         4. !cd Train_Images && mkdir 0 1 2 3 4
         
+Once the directory structure is ready map all the potos based on the categorical data using <b> Train.csv </b>. which looks like below:
+
+<h4> Loading csv file </h4>
+
+        import pandas as pd
+        df = pd.read_csv("/content/train.csv",engine="python")
+        print(df.head())
         
+<h4> Mapping each data to their respective categorie.</h4>
+
+        import os
+        for var in df.values:
+            os.system("mv /content/Train_Images/"+str(var[0])+".png"+" /content/Train_Images/"+str(var[1])+"/"+str(var[0])+".png")
 
 
 <h5><b>This is currently ongoing project</b></h5>
