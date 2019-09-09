@@ -123,5 +123,10 @@ Once the directory structure is ready map all the potos based on the categorical
         for var in df.values:
             os.system("mv /content/Train_Images/"+str(var[0])+".png"+" /content/Train_Images/"+str(var[1])+"/"+str(var[0])+".png")
 
+<h3>2 - Scaling and Normalization with Ben Grahams Preprocessing technique(New).</h3>
+
+Now it is the time for preprocessing part , here a new strategy has been introduced whch is called as <b>Ben Graham</b> pre processing techiniques which is named after the kaggle winner of this project last year.
+
+It has little bit of enhancement with regular preprocessing techniques but it turns out to be the great deal.The steps will be discussed as we go.
 
 <h5><b>This is currently ongoing project</b></h5>
