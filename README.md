@@ -129,4 +129,9 @@ Now it is the time for preprocessing part , here a new strategy has been introdu
 
 It has little bit of enhancement with regular preprocessing techniques but it turns out to be the great deal.The steps will be discussed as we go.
 
+The steps are below:
+
+        1. Load the image into the greyscale.
+        2.
+
 <h5><b>This is currently ongoing project</b></h5>
