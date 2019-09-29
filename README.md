@@ -147,7 +147,7 @@ The code description:
 
 Our observation :
 
-![alt_tag]("/img/result.png")
+![alt_tag](img/result.png)
 
 
 
