@@ -131,7 +131,24 @@ It has little bit of enhancement with regular preprocessing techniques but it tu
 
 The steps are below:
 
-        1. Load the image into the greyscale.
-        2.
+        1. Load the image.
+        2. Conversion into grayscale.
+        3. Resizing the image.
+        4. Add Weights (New introduced).
+
+The code description:
+
+        1. import cv2 // Importing the library.
+        2. img = cv2.imread('img/images1.jpeg') //Loading the image.
+        3. img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) // Grayscale Conversion.
+        4. img = cv2.resize(img, (200,200)) // Resizing.
+        5. img = cv2.addWeighted(img, 4, cv2.GaussianBlur(img, (0,0), 226//10), -4, 256) // Adding weights.
+
+
+Our observation :
+
+![alt_tag]("/img/result.png")
+
+
 
 <h5><b>This is currently ongoing project</b></h5>
