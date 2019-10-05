@@ -149,6 +149,24 @@ Our observation :
 
 ![alt_tag](img/result.png)
 
+code for  display :
+
+        import numpy as np
+        import matplotlib.pyplot as plt
+        
+         w=10
+         h=10
+         fig=plt.figure(figsize=(8, 8))
+         columns = 2
+         rows = 2
+         for i in range(1,5):
+             img = cv2.imread(img_arr[i-1])
+             fig.add_subplot(rows, columns, i)
+             plt.imshow(img)
+         plt.show()
+
+
+
 
 
 <h5><b>This is currently ongoing project</b></h5>
